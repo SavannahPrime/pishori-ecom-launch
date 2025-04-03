@@ -36,6 +36,9 @@ const Navbar = () => {
             <Link to="/about" className="font-medium text-pishori-earth hover:text-pishori-gold transition-colors">
               About
             </Link>
+            <Link to="/blog" className="font-medium text-pishori-earth hover:text-pishori-gold transition-colors">
+              Blog
+            </Link>
             <Link to="/contact" className="font-medium text-pishori-earth hover:text-pishori-gold transition-colors">
               Contact
             </Link>
@@ -99,6 +102,13 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link 
+                to="/blog" 
+                className="font-medium text-pishori-earth hover:text-pishori-gold px-4 py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 to="/contact" 
