@@ -7,7 +7,7 @@ import CallToAction from '@/components/CallToAction';
 
 const Home = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <Hero />
       <Features />
       <ProductShowcase />
